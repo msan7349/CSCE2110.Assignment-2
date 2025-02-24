@@ -11,6 +11,7 @@ public:
     void insert(int value);
     bool search(int value);
     void print();
+    void bubbleSort();
 };
 
 #endif 

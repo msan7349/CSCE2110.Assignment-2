@@ -40,7 +40,7 @@ bool LinkedList::search(int value) {
 }
 
 void LinkedList::bubbleSort() {
-    if (!head || !head->next) return;
+    if (!head) return;
     
     bool swapped;
     Node* ptr;
