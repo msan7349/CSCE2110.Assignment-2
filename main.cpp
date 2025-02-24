@@ -31,7 +31,7 @@ int main() {
             case 4:
                 cout << "Unsorted List: ";
                 list.print();
-                list.bubbleSort();
+                list.bubbleSort();                
                 cout << "Sorted List: ";
                 list.print();
                 break;

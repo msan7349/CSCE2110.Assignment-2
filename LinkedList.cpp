@@ -1,5 +1,6 @@
 #include "LinkedList.h"
 using namespace std;
+#include <iostream>
 
 LinkedList::LinkedList() {
     head = nullptr;
